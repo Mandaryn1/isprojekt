@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, redirect, url_for, flash,
 from app.models import User
 from app import db
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity, verify_jwt_in_request
-
+# test
 auth_bp = Blueprint('auth', __name__)
 
 @auth_bp.context_processor
